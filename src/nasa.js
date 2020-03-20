@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
-import Card from "./Card";
+import Icard from "./Icard";
 
 export default function Nasa(){
     const [data, setData] = useState({});
@@ -19,7 +19,7 @@ export default function Nasa(){
     return( 
         <div className='img-container'>
         
-        <Card data={data}/>
+        <Icard data={data}/>
         
         </div>
     )}
